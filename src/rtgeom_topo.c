@@ -29,11 +29,12 @@
 
 
 
+
 #include "rttopo_config.h"
 
 /*#define RTGEOM_DEBUG_LEVEL 1*/
 #include "rtgeom_log.h"
-
+#include "librttopo_geom.h"
 #include "librttopo_geom_internal.h"
 #include "librttopo_internal.h"
 #include "rtgeom_geos.h"

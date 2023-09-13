@@ -27,7 +27,7 @@
 #include "librttopo_geom.h"
 #include "librttopo_geom_internal.h"
 #include "rtgeom_log.h"
-
+#include <geos_c.h>
 #include <stdlib.h>
 
 RTTIN * rttin_from_geos(const RTCTX *ctx, const GEOSGeometry *geom, int want3d);
